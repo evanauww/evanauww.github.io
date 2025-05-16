@@ -1,0 +1,81 @@
+<!--
+Nama  : Evan Aubin Wibowo
+NIM   : 24.12.3319
+Kelas : SI-04
+Tanggal: 14 Mei 2025 - 
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Kerja Sama - Evan</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- sama dengan indexx.html headernya saya buat sama agar menciptakan ciri khas dari web yang saya buat -->
+    <header class="headerku">
+        <div class="bg-image"></div>
+        <div class="overlay"></div>
+        <h1>Form Kerjasama</h1>
+        <h2>Evanauww.acdmy</h2>
+    </header>
+
+  <nav>
+    <ul>
+      <li><a href="Indexx.html">Home</a></li>
+      <li><a href="Kerjasamaa.html">Kerja Sama</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="form-section">
+      <form action="#" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+        <label for="jenis">Jenis Kerja Sama:</label>
+        <select id="jenis" name="jenis">
+          <option value="projek">Projek Kolaborasi</option>
+          <option value="magang">Magang</option>
+          <option value="lainnya">Lainnya</option>
+        </select>
+
+        <p>Durasi Kerja Sama:</p>
+        <label><input type="radio" name="durasi" value="1bulan"> 1 Bulan</label>
+        <label><input type="radio" name="durasi" value="3bulan"> 3 Bulan</label>
+        <label><input type="radio" name="durasi" value="6bulan"> 6 Bulan</label>
+
+        <p>Fasilitas yang Diberikan:</p>
+        <label><input type="checkbox" name="fasilitas" value="transport"> Transportasi</label>
+        <label><input type="checkbox" name="fasilitas" value="makan"> Konsumsi</label>
+        <label><input type="checkbox" name="fasilitas" value="honor"> Honorarium</label>
+
+        <label for="file">Upload Proposal Kerja Sama:</label>
+        <input type="file" id="file" name="file">
+
+        <label for="tanggal">Tanggal Pertemuan:</label>
+        <input type="datetime-local" id="tanggal" name="tanggal">
+
+        <div class="form-button">
+          <button type="submit">Kirim</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </section>
+  </main>
+<!-- footernya pun juga sama dengan headernya untuk menccitakan ciri khas dari web yang saya buat -->
+  <footer class="footerku">
+    <div class="bg-image"></div>
+    <div class="overlay"></div>
+    <p>&copy; 2025 Evanauww.ori</p>
+</footer>
+</body>
+</html>
